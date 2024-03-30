@@ -8,12 +8,12 @@ import Loading from "./loading";
 import {localCustomFont} from "./fonts";
 
 export const metadata: Metadata = {
-	title: "ISTAD Ecommerce Web",
-	description: "ISTAD Ecommerce Web is a web application for selling products.",
+	title: "Homework008 Web with NextJs SEO",
+	description: "Class practice 008",
 	openGraph: {
-		title: "ISTAD Ecommerce Web",
-		description: "ISTAD Ecommerce Web is a web application for selling products.",
-		images: 'https://store.istad.co/media/brand_images/sokea_AF6QosU.jpg'
+		title: "Homework008 Web with NextJs SEO",
+		description: "Class practice 008",
+    images: ""
 	}
 }
 
