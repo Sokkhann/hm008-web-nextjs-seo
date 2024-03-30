@@ -17,7 +17,7 @@ const getData = async (id: string) => {
 };
 
 // this method is generate metadata base on each product get from endpoint
-export async function generateMetadata(
+async function generateMetadata(
 	{ params, searchParams }: Props,
 	parent: ResolvingMetadata
 ): Promise<Metadata> {

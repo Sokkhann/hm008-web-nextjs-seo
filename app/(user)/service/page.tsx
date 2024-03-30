@@ -6,7 +6,7 @@ import {useRouter} from 'next/navigation'
 // this is the endpoint where we can get the data
 const ENDPOINT = "https://fakestoreapi.com/products/"
 
-export default function page() {
+export default function Service() {
     // create useState to initialize and set to the products when it get from the endpoint
     const [products, setProducts] = useState([])
     // we need to create varaible for allow user navigete by using useRouter()
