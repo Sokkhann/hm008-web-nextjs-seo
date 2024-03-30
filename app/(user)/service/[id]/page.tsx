@@ -24,11 +24,12 @@ async function generateMetadata(
 	const id = params.id;
 	const product = await fetch(`https://fakestoreapi.com/products/${id}`).then((res) => res.json());
 
+	const previousImages = (await parent).openGraph?.images || [];
 	return {
 		title: product.title,
 		description: product.description,
 		openGraph: {
-			images: product.image,
+			images: [product.image, ...previousImages],
 		},
 	};
 }
