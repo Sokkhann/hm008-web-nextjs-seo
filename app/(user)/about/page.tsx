@@ -14,7 +14,10 @@ export default function page() {
       <h1 className="text-6xl font-bold">ABOUT</h1>
 
       <div className="flex items-center">
-        <Image src="https://i.pinimg.com/564x/52/78/65/527865e1176c23b58bfe9925e6026fac.jpg" alt="Image" className="w-96 h-auto mr-8 rounded-lg"/>
+        <img 
+          src="https://i.pinimg.com/564x/52/78/65/527865e1176c23b58bfe9925e6026fac.jpg" 
+          alt="Image"
+          className="w-96 h-auto mr-8 rounded-lg"/>
 
         <div>
           <h2 className="text-4xl font-bold">Here is Our Story</h2>
